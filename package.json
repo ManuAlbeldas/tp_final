@@ -5,7 +5,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build2-css": "node-sass --include-path scss scss/iniciar-sesión.scss css/iniciar-sesión.css",
+    "watch2-css": "nodemon -e scss -x \"npm run build2-css\"",
+    "build3-css": "node-sass --include-path scss scss/como-llegar.scss css/como-llegar.css",
+    "watch3-css": "nodemon -e scss -x \"npm run build3-css\"",
+    "build4-css": "node-sass --include-path scss scss/pago.scss css/pago.css",
+    "watch4-css": "nodemon -e scss -x \"npm run build4-css\"",
+    "build5-css": "node-sass --include-path scss scss/pDelShow.scss css/pDelShow.css",
+    "watch5-css": "nodemon -e scss -x \"npm run build5-css\"",
+    "build6-css": "node-sass --include-path scss scss/perguntas-frecuentes.scss css/preguntas-frecuentes.css",
+    "watch6-css": "nodemon -e scss -x \"npm run build6-css\"",
+    "build7-css": "node-sass --include-path scss scss/registro.scss css/registro.css",
+    "watch7-css": "nodemon -e scss -x \"npm run build7-css\""
   },
   "author": "",
   "license": "ISC",
