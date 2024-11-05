@@ -1,2 +1,22 @@
 .textoShow {
   justify-self: end; }
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 50px 0; }
+
+.info {
+  background-color: black;
+  width: 100%; }
+
+.precio {
+  text-align: center;
+  background-color: blue; }
+
+.infoShow {
+  font-size: 18px;
+  margin-top: 20px; }
+
+.horario {
+  flex-direction: column; }
