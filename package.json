@@ -12,9 +12,9 @@
     "watch3-css": "nodemon -e scss -x \"npm run build3-css\"",
     "build4-css": "node-sass --include-path scss scss/pago.scss css/pago.css",
     "watch4-css": "nodemon -e scss -x \"npm run build4-css\"",
-    "build5-css": "node-sass --include-path scss scss/pDelShow.scss css/pDelShow.css",
+    "build5-css": "node-sass --include-path scss scss/PDelShow.scss css/PDelShow.css",
     "watch5-css": "nodemon -e scss -x \"npm run build5-css\"",
-    "build6-css": "node-sass --include-path scss scss/perguntas-frecuentes.scss css/preguntas-frecuentes.css",
+    "build6-css": "node-sass --include-path scss scss/preguntas-frecuentes.scss css/preguntas-frecuentes.css",
     "watch6-css": "nodemon -e scss -x \"npm run build6-css\"",
     "build7-css": "node-sass --include-path scss scss/registro.scss css/registro.css",
     "watch7-css": "nodemon -e scss -x \"npm run build7-css\""
