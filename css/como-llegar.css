@@ -1,4 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
-  background-color: pink; }
+  padding: 0; }
+
+.espacio {
+  height: 50px; }
