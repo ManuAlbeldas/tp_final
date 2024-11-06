@@ -9,82 +9,84 @@
     <title>Pagina del show</title>
 </head>
 <body>
-    <main class="row">
-        <div class="imagenShow">
+    <main>
+        <div class="main__imagenShow">
             <img src="../assets/imagenes/margarita.jpg" alt="" width="100%" height="600px">
         </div>
         <div>
-            <h1>Margarita</h1>
+            <h1 class="titulo">Margarita</h1>
         </div>
-        <div class="info col-lg-6">
-            <div>
-                <h1 class="precio">Precio de la entrada: $$$</h1>
+        <div class="row">
+          <div class="info col-lg-6">
+            <div class="precio">
+                <h1 class="precio">Precio de la entrada: 30.000$</h1>
+                <div class="horario">
+                    <p>11 de Noviembre</p>
+                    <p>18:00 Horario puerta</p>
+                    <p>20:00 Horario show</p>
+                    <button>Comprar</button>
+                </div>
             </div>
-            <div class="horario">
-                <p>11 de Noviembre</p>
-                <p>18:00 Horario puerta</p>
-                <p>20:00 Horario show</p>
-                <button>Comprar</button>
-            </div>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Metodos de pago
-                </button>
-                <ul class="dropdown-menu">
-                  <li>Visa</li>
-                  <li>Visa debito</li>
-                  <li>Mastercard</li>
-                  <li>Mastercard debito</li>
-                </ul>
+                </div>
+                  <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Metodos de pago
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>Visa <img src="../assets/imagenes/logovisa.png" alt="" class="logoTarjeta"></li>
+                        <li>Visa debito <img src="../assets/imagenes/logovisadebito.png" alt="" class="logoTarjeta"></li>
+                        <li>Mastercard <img src="../assets/imagenes/logomastercard.png" alt="" class="logoTarjeta"></li>
+                        <li>Mastercard debito <img src="../assets/imagenes/logomastercarddebito.png" alt="" class="logoTarjeta"></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>Sobre el show</h3>
+                        <p class="infoShow">¡VUELVE LA ETERNA MAGIA DE CRIS MORENA!
+                            LA EXITOSA PRODUCCIÓN QUE ESTÁ CAUTIVANDO A MILLONES DE PERSONAS SUBIRÁ AL ESCENARIO A VESTIRNOS DE COLORES, HISTORIAS Y CANCIONES INOLVIDABLES.
+                            Un momento único para disfrutar y emocionarnos con el elenco completo de “MARGARITA”, bien cerca de su público.
+                            5 DE FEBRERO
+                            MOVISTAR ARENA</p>
+                    </div>
+                  </div>
               </div>
-            
         </div>
-        <div class="textoShow col-lg-6">
-            <h3>Sobre el show</h3>
-            <p class="infoShow">¡VUELVE LA ETERNA MAGIA DE CRIS MORENA!
-                LA EXITOSA PRODUCCIÓN QUE ESTÁ CAUTIVANDO A MILLONES DE PERSONAS SUBIRÁ AL ESCENARIO A VESTIRNOS DE COLORES, HISTORIAS Y CANCIONES INOLVIDABLES.
-                Un momento único para disfrutar y emocionarnos con el elenco completo de “MARGARITA”, bien cerca de su público.
-                5 DE FEBRERO
-                MOVISTAR ARENA</p>
-        </div>
-
         <div class="col-lg-6">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pregunta 1
+                  Objetos prohibidos
                 </button>
                 <ul class="dropdown-menu">
-                  <li>Respuesta 1</li>
+                  <li><img src="../assets/imagenes/Captura.PNG" alt=""></li>
                 </ul>
               </div>
         </div>
         <div class="col-lg-6">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pregunta 2
+                  Politica de menores
                 </button>
                 <ul class="dropdown-menu">
-                  <li>Respuesta 2</li>
+                  <li>Prohibido el ingreso a menores de 3 años. Mayores de 3 años abonan ticket. Menores de 14 años deben ingresar acompañados por un adulto mayor de 18 años.</li>
                 </ul>
               </div>
         </div>
         <div class="col-lg-6">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pregunta 3
+                  Envio de entradas
                 </button>
                 <ul class="dropdown-menu">
-                  <li>Respuesta 3</li>
+                  <li>La distribución de las entradas se realiza aproximadamente a los 10 días hábiles de realizada la compra.</li>
                 </ul>
               </div>
         </div>
         <div class="col-lg-6">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pregunta 4
+                  Cantidad maxima de entradas por compra
                 </button>
                 <ul class="dropdown-menu">
-                  <li>Respuesta 4</li>
+                  <li>Se podrán adquirir un máximo de 6 entradas por transacción.</li>
                 </ul>
               </div>
         </div>

@@ -1,22 +1,37 @@
 .textoShow {
   justify-self: end; }
 
+.titulo {
+  margin: 40px 0 40px 0; }
+
 .dropdown {
   display: flex;
   flex-direction: column;
-  margin: 50px 0 50px 0; }
+  margin: 50px 0 50px 0;
+  background-color: red; }
 
 .info {
   background-color: black;
-  width: 100%; }
+  margin-left: 15px; }
 
 .precio {
   text-align: center;
-  background-color: blue; }
+  background-color: white;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 24px; }
 
 .infoShow {
   font-size: 18px;
   margin-top: 20px; }
 
 .horario {
-  flex-direction: column; }
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 15px; }
+
+.logoTarjeta {
+  width: 40px;
+  height: 30px; }
